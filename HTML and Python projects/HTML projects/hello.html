@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        button input{
+    font-size: xx-large;
+    
+}
+body{
+    background: linear-gradient(to right, #234a91, #912077);
+}
+    </style>
+</head>
+<body>
+<h1>Addition of two numbers in JavaScript!!!
+</h1>
+<input type="text" id="n1" placeholder="Enter a number" width="250">
+<input type="text" id="n2" placeholder="Enter 2nd number">
+<input type="button" id="add" onclick="add()" placeholder="ADD" width="250" title="Add the numbers! :)">
+
+    <script>
+        function add() {
+    var n1 = document.getElementById("n1").value;
+    var n2 = document.getElementById("n2").value;
+    var sum = Number(n1) + Number(n2)
+    alert(sum)
+}
+    </script>
+</body>
+</html>
